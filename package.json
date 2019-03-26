@@ -1,0 +1,29 @@
+{
+  "name": "egret-res-json-manager",
+  "version": "0.0.1",
+  "description": "A tool for organizing egret res json files to avoid or resolve git version conflicts.",
+  "main": "./out/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChaoShengze/egret-res-json-manager.git"
+  },
+  "keywords": [
+    "egret",
+    "res.json",
+    "git"
+  ],
+  "author": "Hope.Phenom",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ChaoShengze/egret-res-json-manager/issues"
+  },
+  "homepage": "https://github.com/ChaoShengze/egret-res-json-manager#readme",
+  "dependencies": {
+    "node": "^11.12.0",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.7"
+  }
+}
