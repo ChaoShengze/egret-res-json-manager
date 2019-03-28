@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/ChaoShengze/egret-res-json-manager#readme",
   "dependencies": {
+    "args-router": "0.0.1",
     "node": "^11.12.0",
     "typescript": "^3.3.4000"
   },
   "devDependencies": {
-    "@types/node": "^11.11.7"
+    "@types/node": "^11.11.7",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
