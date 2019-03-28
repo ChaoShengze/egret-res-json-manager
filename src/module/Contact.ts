@@ -19,8 +19,8 @@ function getResSingleKey(): Map<string, boolean> {
 function getGroupSingleKey(): Map<string, boolean> {
     const map_group = new Map();
     pendingArr.forEach((arr) => {
-        arr.groups.forEach((res) => {
-            map_group.set(res.name, false);
+        arr.groups.forEach((group) => {
+            map_group.set(group.name, false);
         });
     });
     return map_group;
