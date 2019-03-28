@@ -27,7 +27,7 @@ export function sortRes(data: file.egretResJson): file.egretResJson {
         arr.forEach(element => {
             str += `${element},`;
         });
-        str.slice(str.length - 1, 1);
+        str.slice(str.length - 2, 1);
         element.keys = str;
     });
     data.resources.sort();
