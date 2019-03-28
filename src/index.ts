@@ -11,15 +11,13 @@ args.regArg("contact", (args) => {
 args.regArg("sortRes", (args) => {
     const url = args[0];
     const res = reader.readResJsonFile(url);
-    const dataSort = sortRes(res);
-    reader.writeJson(url, dataSort);
+    reader.writeJson(url, sortRes(res));
 });
 
 args.regArg("sortThm", (args) => {
     const url = args[0];
     const res = reader.readThmJsonFile(url);
-    const dataSort = sortThm(res);
-    reader.writeJson(url, dataSort);
+    reader.writeJson(url, sortThm(res));
 });
 
 try {
